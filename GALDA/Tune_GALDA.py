@@ -66,7 +66,6 @@ Centers = []
 Clusters = []
 classes = []
 logfile=open(foldermodels+'/log.txt','w')
-#sqD = np.load("/StorageArray2/shaoweiwang/ferdianthung/ghtopics/SANER17/GACODE/sqDistMatrix.npy")
 sqD=scipy.spatial.distance.squareform(scipy.spatial.distance.pdist(tf_array))
 
 shScore = {}
