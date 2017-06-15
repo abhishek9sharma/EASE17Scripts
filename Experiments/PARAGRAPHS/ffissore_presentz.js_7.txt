@@ -1,0 +1,8 @@
+DZSlides
+ {
+  "url": "http://www.mozillaitalia.org/slides/linuxday12/#1.0",
+  "time": 0,
+  "_plugin_id": "iframe"
+} where: is the base url
+ is the slide number (one based)
+ is used to force presentz.js use the IFrameSlide plugin (otherwise the fallback ImageSlide would be used

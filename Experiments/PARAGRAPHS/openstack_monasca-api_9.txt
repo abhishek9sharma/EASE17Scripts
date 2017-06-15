@@ -1,0 +1,3 @@
+Java Build
+ Requires monasca-common. First clone this repository and then do mvn install. Then return to monasca-api and: $ cd java
+$ mvn clean package

@@ -1,0 +1,60 @@
+0 2 32 0.0458333333333 0.0541666666667
+SCORE::0.310296986622
+1 2 41 0.0458333333333 0.0125
+SCORE::0.33510540182
+2 4 37 0.0625 0.0104166666667
+SCORE::0.464193611676
+3 2 45 0.0479166666667 0.0145833333333
+SCORE::0.317796697709
+4 4 24 0.0395833333333 0
+SCORE::0.528958025114
+5 2 44 0.0583333333333 0.00833333333333
+SCORE::0.320236044889
+6 3 32 0.0354166666667 0.0375
+SCORE::0.404401133605
+7 3 32 0.0354166666667 0.0583333333333
+SCORE::0.407812233535
+8 4 48 0.0416666666667 0.00833333333333
+SCORE::0.504785643902
+9 2 22 0.00208333333333 0.0416666666667
+SCORE::0.326640963254
+10 2 46 0.0395833333333 0
+SCORE::0.307265942929
+11 2 24 0.0395833333333 0.0541666666667
+SCORE::0.327027533142
+12 3 24 0.0541666666667 0
+SCORE::0.416850271131
+13 4 39 0.00833333333333 0
+SCORE::0.460770385784
+14 4 24 0.00395833333333 0.0
+- GenomeBase
+	Score:			 0.528958
+	Fitness:		 0.626567
+
+	Params:		 {'rangemax': 50, 'rangemin': 20}
+
+	Slot [Evaluator] (Count: 1)
+		Name: eval_func2 - Weight: 0.50
+	Slot [Initializator] (Count: 1)
+		Name: G1DListInitializatorInteger - Weight: 0.50
+		Doc:  Integer initialization function of G1DList
+
+   This initializator accepts the *rangemin* and *rangemax* genome parameters.
+
+   
+	Slot [Mutator] (Count: 1)
+		Name: G1DListMutatorSwap - Weight: 0.50
+		Doc:  The mutator of G1DList, Swap Mutator
+   
+   .. note:: this mutator is :term:`Data Type Independent`
+
+   
+	Slot [Crossover] (Count: 1)
+		Name: G1DListCrossoverUniform - Weight: 0.50
+		Doc:  The G1DList Uniform Crossover 
+
+- G1DList
+	List size:	 4
+	List:		 [46, 24, 39, 20]
+
+

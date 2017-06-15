@@ -1,0 +1,8 @@
+How do I use it?
+ Firstly, include a copy of jQuery in your document. You can download your own copy of jQuery at http://jquery.com or link to the Google hosted script: <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> Download and include HorizontalNav in your document as well: <script src="jquery.horizontalNav.js"></script> Call the horizontalNav function in your document ready function: $(document).ready(function() {
+  $('.nav-wrapper').horizontalNav();
+}); You can override the default settings by passing in parameters like this: $(document).ready(function() {
+  $('ul').horizontalNav({
+    responsive : false
+  });
+}); That's it! Your navigation never looked so good :)

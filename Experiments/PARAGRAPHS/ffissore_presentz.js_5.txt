@@ -1,0 +1,2 @@
+Rvl.io, Reveal.js, DZSlides and other hash/javascript/brower based slide systems that can fit into an IFrame
+ Reveal.js, Rvl.io and DZSlides are some popular frameworks for creating very good looking HTML + CSS based slideshows. As they monitor the URL to know which slide has to be displayed, presentz.js supports them by wrapping the slideshow into an IFrame and changing its url. Each of these system has its own way of understanding which slide to display. See the following examples:

@@ -1,0 +1,7 @@
+Speakerdeck
+ Slideshows on speakerdeck are identified by an ID but, unfortunately, there is yet no public API to have this ID from the slideshow public url. You can get it by clicking the "Embed" link on the right of a slideshow, "Embed" again and looking for a  attribute in the  snippet just below. Use that ID to compose a fake speakerdeck URL, like {
+  "url": "https://speakerdeck.com/4ffbeed2df7b3f00010233bf#1",
+  "time": 0
+}, where: is used to activate the speakerdeck plugin
+ is the ID
+ is the slide number (one based)

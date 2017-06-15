@@ -1,0 +1,2 @@
+But wait, can't I just do this effect using ?
+ Yes, you totally can! And if you don't need to support IE7 then that is the best way that I've found to create this effect. And that's exactly what this plugin uses to create the effect for modern browsers. But if you DO need to support IE7, this plugin is a great polyfill for you. Thanks to hitsthings for bringing this issue up :)

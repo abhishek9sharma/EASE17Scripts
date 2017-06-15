@@ -1,0 +1,4 @@
+Events
+ You can listen to the events emitted by Presentz.js with the syntax Presentz.js emits the following events: , emitted when the slide changes. Callback arguments: , , , 
+, emitted when the chapter changes. See  callback arguments
+, emitted as the video player plays the video. Callback argument:  (a float)

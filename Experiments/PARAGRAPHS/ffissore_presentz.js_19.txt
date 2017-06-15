@@ -1,0 +1,2 @@
+Supported video sources
+ Presentz.js wants to use and reuse everything is already available, but we can rely only on those video streaming services that provide a "player API". As a fallback, we can host our video files on our own servers (or on any other webserver, think amazon s3, dropbox...) At the moment, Presentz.js supports Youtube, Vimeo and raw video sources (as in the JSON above).

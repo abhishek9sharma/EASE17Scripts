@@ -1,0 +1,6 @@
+Samba Tech
+ Use the samba tech url in the  property and set the plugin ID. "video": {
+  "url": "http://player.sambatech.com.br/current/samba-player.js?ph=1848c0c4b30b5d2d886ef99546152c23&m=449ead8b6768bb8ec73a8ef579d175f3",
+  "_plugin_id": "sambatech_plugin",
+  "thumb": "/assets/demo/vimeo-img.png"
+}, Samba Tech is a online video platform pioneer in Latin America used by media groups, enterprises and universities.

@@ -1,0 +1,2 @@
+Adding your plugin
+ By calling methods  and  (before calling the  method) you can make presentz.js work with your own plugin. If you think you plugin can be of benefit to presentz.js users, consider making a pull request and have included in the official distribution.

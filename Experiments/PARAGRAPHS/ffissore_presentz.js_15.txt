@@ -1,0 +1,5 @@
+Raw video files
+ Use the url to the video file in the  property "video": {
+  "url": "http://presentz.org/assets/demo/demo1.webm",
+  "thumb": "http://presentz.org/assets/demo/videotag-img.png"
+}, Raw video files require mediaelementjs is already setup (if you just put in their .js file, the player will be so ugly to be unusable)

@@ -1,0 +1,5 @@
+Images and SWF files
+ You can export a presentation made with LibreOffice to images (should be "File -> Export -> HTML Document"). Or you can convert a PDF to a series of SWF with SWFTools. Either way, once you have your files, put the url in the  property {
+  "url": "http://presentz.org/assets/demo/slide1.png",
+  "time": 0
+},

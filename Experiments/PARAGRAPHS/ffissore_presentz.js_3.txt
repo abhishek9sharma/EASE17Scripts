@@ -1,0 +1,2 @@
+Reference
+ You can browse the reference documentation at http://ffissore.github.io/presentz.js

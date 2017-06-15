@@ -1,0 +1,12 @@
+Rvl.io and Reveal.js
+ {
+  "url": "http://www.rvl.io/federico/presentz/#/0",
+  "time": 0,
+  "_plugin_id": "iframe"
+} where: is the base url
+ is the slide number (zero based)
+ is used to force presentz.js use the IFrameSlide plugin (otherwise the fallback ImageSlide would be used Reveal.js supports vertical slides, that are a sort of "sub slides" of a parent one. To show those slides, append the number to the parent slide number, for example {
+  "url": "http://www.rvl.io/federico/presentz/#/0/1",
+  "time": 10,
+  "_plugin_id": "iframe"
+}

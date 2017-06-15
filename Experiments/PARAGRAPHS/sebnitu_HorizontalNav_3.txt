@@ -1,0 +1,2 @@
+License
+ HorizontalNav is built and maintained by Sebastian Nitu and is licensed under the MIT License (MIT). Follow me on Twitter, GitHub and Dribbble.

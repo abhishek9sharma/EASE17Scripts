@@ -1,0 +1,5 @@
+Contributing
+ Fork the project
+Make your changes, including tests that exercise the code
+Summarize your changes in CHANGELOG.md
+Make a pull request Version announcements happen on the Payola Payments Google group and @payolapayments.

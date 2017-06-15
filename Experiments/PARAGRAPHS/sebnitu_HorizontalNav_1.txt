@@ -1,0 +1,4 @@
+HorizontalNav
+ HorizontalNav is a jQuery plugin that spans a horizontal navigation to fit the full width of it's container. If you've ever had to create this effect on a project, you'll know it's pretty annoying to do. But this plugin makes it easy and adds support for IE7. By Sebastian Nitu Plugin URI:	https://github.com/sebnitu/HorizontalNav
+Author URI:	http://sebnitu.com/
+Online Demo: http://sebnitu.github.com/HorizontalNav/

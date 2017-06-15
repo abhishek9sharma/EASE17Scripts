@@ -1,0 +1,9 @@
+SlideShare
+ Slideshows on slideshare are identified by an ID they call  (in their API) and  (in their player API). Use that ID to compose a fake slideshare URL, like {
+  "url": "http://www.slideshare.net/slides-110818145820-phpapp02#1",
+  "public_url": "http://www.slideshare.net/federicofissore/presentz-demo-slides"
+  "time": 0
+}, where: is used to activate the slideshare plugin
+ is the ID (or doc, or PPTLocation)
+ is the slide number (one based)
+ is the url to access the slide show on slideshare If the  is present, presentz.js will NOT use the flash player (hurrah!) instead will pick the JPGs provided by SlideShare's oEmbed API. It's therefore highly recommended to provide a

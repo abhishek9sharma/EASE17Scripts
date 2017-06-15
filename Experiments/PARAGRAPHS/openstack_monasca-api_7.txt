@@ -1,0 +1,2 @@
+Usage
+ $ java -jar target/monasca-api.jar server config-file.yml

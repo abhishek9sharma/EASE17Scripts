@@ -1,0 +1,5 @@
+Vimeo
+ Use the vimeo url in the  property "video": {
+  "url": "http://vimeo.com/27902834",
+  "thumb": "/assets/demo/vimeo-img.png"
+},

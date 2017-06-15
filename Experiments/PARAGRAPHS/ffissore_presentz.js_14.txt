@@ -1,0 +1,6 @@
+Wistia
+ Use the wistia url in the  property and set the plugin ID. "video": {
+  "url": "http://www.wistia.com/g3q48tbnyg",
+  "_plugin_id": "wistia_plugin",
+  "thumb": "/assets/demo/vimeo-img.png"
+}, Wistia provides a video hosting application that makes it easy to manage, share, and track video at work.

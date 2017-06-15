@@ -1,0 +1,30 @@
+- GenomeBase
+	Score:			 0.528958
+	Fitness:		 0.626567
+
+	Params:		 {'rangemax': 50, 'rangemin': 20}
+
+	Slot [Evaluator] (Count: 1)
+		Name: eval_func2 - Weight: 0.50
+	Slot [Initializator] (Count: 1)
+		Name: G1DListInitializatorInteger - Weight: 0.50
+		Doc:  Integer initialization function of G1DList
+
+   This initializator accepts the *rangemin* and *rangemax* genome parameters.
+
+   
+	Slot [Mutator] (Count: 1)
+		Name: G1DListMutatorSwap - Weight: 0.50
+		Doc:  The mutator of G1DList, Swap Mutator
+   
+   .. note:: this mutator is :term:`Data Type Independent`
+
+   
+	Slot [Crossover] (Count: 1)
+		Name: G1DListCrossoverUniform - Weight: 0.50
+		Doc:  The G1DList Uniform Crossover 
+
+- G1DList
+	List size:	 4
+	List:		 [46, 24, 39, 20]
+

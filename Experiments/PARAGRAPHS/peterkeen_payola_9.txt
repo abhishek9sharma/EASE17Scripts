@@ -1,0 +1,4 @@
+TODO
+ Multiple subscriptions per customer
+Affiliate tracking
+Easy metered billing

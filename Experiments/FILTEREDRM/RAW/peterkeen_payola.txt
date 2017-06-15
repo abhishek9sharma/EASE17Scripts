@@ -1,0 +1,2 @@
+ Payola
+ Payments with Stripe for your Rails application.

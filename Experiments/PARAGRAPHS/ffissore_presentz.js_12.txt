@@ -1,0 +1,7 @@
+Plugin override
+ Presentz.js tries to understand which plugins fits best by looking at the video/slide url. If you wish to force usage of a particular plugin, add the slide/video json object a  field. For example: {
+  "url": "http://www.mozillaitalia.org/slides/linuxday12/#1.0",
+  "time": 0,
+  "_plugin_id": "iframe"
+} Allowed values include: video: "vimeo", "youtube", "html5"
+slide: "slideshare", "speakerdeck", "swf", "image", "iframe"
