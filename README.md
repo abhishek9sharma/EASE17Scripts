@@ -11,7 +11,7 @@ Please use proper citations if you use the [code](https://github.com/abhishek9sh
 ##### 2.Run the [RunExp.py](https://github.com/abhishek9sharma/EASE17Scripts/blob/master/RunExp.py) to extract preprocessed text from functionally descriptvie segments in README files (for details of approach please see the [paper](http://dl.acm.org/citation.cfm?doid=3084226.3084287)).
 
    In case you have your own projects please change the file [Combined_Data_Sample.csv](https://github.com/abhishek9sharma/EASE17Scripts/blob/master/CONFIG/Combined_Data_Sample.csv) with your own files.
-##### 3.Run the [Tune_GALDA.py](https://abc.com)
+##### 3.Run the [Tune_GALDA.py](https://github.com/abhishek9sharma/EASE17Scripts/blob/master/GALDA/Tune_GALDA.py)
 
 After the above steps f no exeption occurs you can find the [comb2desc.csv](https://github.com/abhishek9sharma/EASE17Scripts/blob/master/Experiments/REPOPROPS/comb2desc.csv)
 
