@@ -15,7 +15,7 @@ Please use proper citations if you use the [code](https://github.com/abhishek9sh
 
 After the above steps f no exeption occurs you can find the [comb2desc.csv](https://github.com/abhishek9sharma/EASE17Scripts/blob/master/Experiments/REPOPROPS/comb2desc.csv)
 
-You can see a visualization of the created topic model at [VizLDA.ipynb](https://github.com/abhishek9sharma/EASE17Scripts/blob/master/VizLDA.ipynb)
+You can see a visualization of the created topic model at [VizLDA.ipynb](http://nbviewer.jupyter.org/github/abhishek9sharma/EASE17Scripts/blob/bec18fc1bc4b964d889752d7cb8b534973d887ba/VizLDA.ipynb)
 
 ###### Currently tested on Python 2.7.6
 
