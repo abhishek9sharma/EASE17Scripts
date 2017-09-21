@@ -13,7 +13,7 @@ Please use proper citations if you use the [code](https://github.com/abhishek9sh
    In case you have your own projects please change the file [Combined_Data_Sample.csv](https://github.com/abhishek9sharma/EASE17Scripts/blob/master/CONFIG/Combined_Data_Sample.csv) with your own files.
 ##### 3.Run the [Tune_GALDA.py](https://github.com/abhishek9sharma/EASE17Scripts/blob/master/GALDA/Tune_GALDA.py)
 
-After the above steps f no exeption occurs you can find the [comb2desc.csv](https://github.com/abhishek9sharma/EASE17Scripts/blob/master/Experiments/REPOPROPS/comb2desc.csv)
+After the above steps if no exeption occurs you can find the topics of imput files at [comb2desc.csv](https://github.com/abhishek9sharma/EASE17Scripts/blob/master/Experiments/REPOPROPS/comb2desc.csv)
 
 You can see a visualization of the created topic model at [VizLDA.ipynb](http://nbviewer.jupyter.org/github/abhishek9sharma/EASE17Scripts/blob/bec18fc1bc4b964d889752d7cb8b534973d887ba/VizLDA.ipynb)
 
