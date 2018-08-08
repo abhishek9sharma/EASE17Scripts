@@ -8,11 +8,11 @@ Please use proper citations if you use the [code](https://github.com/abhishek9sh
 
 ##### 1. Delete all files in the folder [Experiments](https://github.com/abhishek9sharma/EASE17Scripts/tree/master/Experiments)
 
-##### 2.Run the [RunExp.py](https://github.com/abhishek9sharma/EASE17Scripts/blob/master/RunExp.py) to extract preprocessed text from functionally descriptvie segments in README files (for details of approach please see the  paper [preprint](https://github.com/abhishek9sharma/abhishek9sharma.github.io/blob/master/Papers/EASE17abhishek_preprint.pdf) or camera ready [version](http://dl.acm.org/citation.cfm?doid=3084226.3084287)).
+##### 2.Run the [RunExp.py](https://github.com/abhishek9sharma/EASE17Scripts/blob/master/RunExp.py) to extract preprocessed text from functionally descriptive segments in README files (for details of approach please see the  paper [preprint](https://github.com/abhishek9sharma/abhishek9sharma.github.io/blob/master/Papers/EASE17abhishek_preprint.pdf) or camera ready [version](http://dl.acm.org/citation.cfm?doid=3084226.3084287)).
 
-   In case you have your own projects please change the file [Combined_Data_Sample.csv](https://github.com/abhishek9sharma/EASE17Scripts/blob/master/CONFIG/Combined_Data_Sample.csv) with your own files.
+   In case you have your own projects please change the file [Combined_Data_Sample.csv](https://github.com/abhishek9sharma/EASE17Scripts/blob/master/CONFIG/Combined_Data_Sample.csv) with your own files. You may use
 ##### 3.Run the [Tune_GALDA.py](https://github.com/abhishek9sharma/EASE17Scripts/blob/master/GALDA/Tune_GALDA.py)
-
+[electGitHubRepos.py](https://github.com/abhishek9sharma/EASE17Scripts/blob/master/SelectGitHubRepos.py) to download projects based on certain criteria.
 After the above steps if no exeption occurs you can find the topics of imput files at [comb2desc.csv](https://github.com/abhishek9sharma/EASE17Scripts/blob/master/Experiments/REPOPROPS/comb2desc.csv)
 
 You can see a visualization of the created topic model at [VizLDA.ipynb](http://nbviewer.jupyter.org/github/abhishek9sharma/EASE17Scripts/blob/bec18fc1bc4b964d889752d7cb8b534973d887ba/VizLDA.ipynb)
