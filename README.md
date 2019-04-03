@@ -15,7 +15,7 @@ Please use proper citations if you use the [code](https://github.com/abhishek9sh
     a. Installation 
         
         -- Windows  : pip2 install --user virtualenv
-        -- Linux    : python2 -m pip2 install --user virtualenv
+        -- Linux    : python2 -m pip install --user virtualenv
         
     b. Configuration (*ease2017* is the environment name)
         
