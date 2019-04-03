@@ -317,9 +317,16 @@ try:
     dictionary = gensim.corpora.Dictionary.load(folderpath + 'MultiCore.dict')
     corpus = gensim.corpora.MmCorpus(folderpath + 'MultiCoreCorpus.mm')
     modelfile = ''
+    # for f in os.listdir(folderpath):
+    #     if ('.model' in f and '.model.state' not in f):
+    #         modelfile = f
+    
     for f in os.listdir(folderpath):
-        if ('.model' in f and '.model.state' not in f):
-            modelfile = f
+        if ('.model' in f):
+            filetype = f.split('.')[-1]
+            if filetype not in ['state','id2word','npy']:
+                modelfile = f
+
     print(modelfile)
     model_test = gensim.models.ldamodel.LdaModel.load(folderpath + modelfile)
 
@@ -392,7 +399,9 @@ try:
     # In[10]:
 
     # LOAD DOC/proj/repo NAMEs
-    repdata = os.listdir(foldermain + '/HTMLSORG')
+    #repdata = os.listdir(foldermain + '/HTMLSORG')
+    repdata=os.listdir(foldermain+'/FILTEREDRM/PREPROCESSED/')
+
 
     # In[11]:
 
