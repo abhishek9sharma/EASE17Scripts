@@ -57,7 +57,7 @@ prompt-toolkit==1.0.15
 ptyprocess==0.6.0
 py==1.8.0
 Pyevolve==0.6rc1
-Pygments==2.3.1
+Pygments==2.7.4
 pyLDAvis==2.1.2
 pyrsistent==0.14.11
 pytest==4.4.0
